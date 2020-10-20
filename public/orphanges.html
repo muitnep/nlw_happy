@@ -14,12 +14,12 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
 
-    <link rel="stylesheet" href="./public/css/animations.css">
-    <link rel="stylesheet" href="./public/css/page-orphanage.css">
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/page-orphanage.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     
 </head>
@@ -27,7 +27,7 @@
     <div id="page-orphanpages">
         <aside class="animate-right">
             <header>
-                <img src="./public/images/map-marker.svg" alt="">
+                <img src="./images/map-marker.svg" alt="">
 
                 <h2>Escolha um orfanato no mapa</h2>
 
@@ -41,12 +41,15 @@
             </footer>
         </aside>
 
-        <div id="mapid">
-            <a href="create-orphanage.html" class="create-orphanage"></a>
-        </div>
+        <div id="mapid" class="animate-appear"></div>
+
+        <a href="create-orphanage.html" class="create-orphanage" title="Cadastro Orfanato">
+            <img src="./images/plus.svg" alt="Criar orfanato">
+        </a>
+
     </div>
 
-    <script src="./public/scripts/page-orphanages.js">
+    <script src="./scripts/page-orphanages.js">
         
     </script>
 

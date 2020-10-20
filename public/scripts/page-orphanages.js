@@ -8,7 +8,7 @@ L
 
 //create icon
 const icon = L.icon({
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "./images/map-marker.svg",
     iconSize: [58, 68],
     iconAnchor: [29, 68],
     popupAnchor: [170, 2]
@@ -20,9 +20,7 @@ const popup = L.popup({
     className: 'map-popup',
     minWidth: 240,
     minHeight: 240
-}).setContent('Lar das meninas <a href="orphanages.html?id=1" class="choose-orphange"><img src="./public/images/arrow-white.svg" > </a>')
-
-
+}).setContent('Lar das Meninas <a href="orphanages.html?id=1" class="choose-orphange"><img src="./images/arrow-white.svg" > </a>')
 
 
 //create and add marker
